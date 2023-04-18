@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg {
+  padding: 100px;
+}
+.name-input {
+  width: 300px;
+  margin-bottom: 10px;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  padding: 5px;
+}
+.add-btn {
+  height: 38px;
+  width: 138px;
+  border-style: none;
+  border-radius: 6px;
+  background-color: #0284c7;
+  color: white;
+}
+.comments-container {
+  display: flex;
+  align-items: center;
+}
+.comment-img {
+  margin-left: 150px;
+}
+
+.line {
+  width: 100%;
+}
+
+.comment-count {
+  padding: 5px;
+  border-style: none;
+  border-radius: 2px;
+  background-color: #0284c7;
+  color: white;
+}
+.description {
+  color: #475569;
+  font-weight: 500;
+}
